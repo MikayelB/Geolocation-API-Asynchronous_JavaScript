@@ -340,7 +340,6 @@ Promise.reject(new Error('Problem!')).catch(x => console.error(x));
 ///////////////////////////////////////
 // Promisifying the Geolocation API
 
-/* 
 const getPosition = function () {
   return new Promise(function (resolve, reject) {
     // navigator.geolocation.getCurrentPosition(
@@ -381,7 +380,6 @@ const whereAmI = function () {
 };
 
 btn.addEventListener('click', whereAmI);
-*/
 
 ///////////////////////////////////////
 // Coding Challenge #2
@@ -617,6 +615,7 @@ TEST DATA: ['img/img-1.jpg', 'img/img-2.jpg', 'img/img-3.jpg']. To test, turn of
 GOOD LUCK 😀
 */
 
+/* 
 const wait = function (seconds) {
   return new Promise(function (resolve) {
     setTimeout(resolve, seconds * 1000);
@@ -684,3 +683,5 @@ const loadAll = async function (array) {
 };
 
 // loadAll(imgArr);
+
+*/
